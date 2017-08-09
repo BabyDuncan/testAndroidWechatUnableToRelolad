@@ -1,0 +1,2 @@
+# testAndroidWechatUnableToRelolad
+安卓手机中的微信app软件里面，使用window.reload无法跳转
