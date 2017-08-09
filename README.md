@@ -1,2 +1,5 @@
 # testAndroidWechatUnableToRelolad
 安卓手机中的微信app软件里面，使用window.reload无法跳转
+
+根本原因是因为安卓的微信对URL地址有缓存
+解决办法是reload的时候增加一个时间戳，防止缓存。
